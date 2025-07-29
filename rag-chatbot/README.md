@@ -33,3 +33,4 @@ A document-based Retrieval-Augmented Generation (RAG) chatbot built with **LangC
    cd RAG--Chatbot
 
 # Update: Testing commit activity
+# Added a new branch activity
