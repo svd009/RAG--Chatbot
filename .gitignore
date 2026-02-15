@@ -1,4 +1,6 @@
-__pycache__/
-models/
-temp.pdf
+﻿__pycache__/
+*.pyc
 .env
+chroma_db/
+.pytest_cache/
+.DS_Store
