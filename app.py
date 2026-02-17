@@ -84,4 +84,4 @@ else:
     """)
 
 st.markdown("---")
-st.caption("✅ FREE - No API keys - Perfect for YouTube demo!")
+st.caption("✅ FREE!")
