@@ -20,9 +20,15 @@ if uploaded_file is not None:
     
     # Simple PDF text extraction (no ML)
     try:
+<<<<<<< HEAD
         import pypdf
         with open(tmp_path, 'rb') as file:
             pdf_reader = pypdf.PdfReader(file)
+=======
+        import pypdf2
+        with open(tmp_path, 'rb') as file:
+            pdf_reader = pypdf2.PdfReader(file)
+>>>>>>> 6c98748db0b711537d15863efa75b417a26a90c3
             text = ""
             for page in pdf_reader.pages:
                 text += page.extract_text()
